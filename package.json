@@ -1,0 +1,30 @@
+{
+  "name": "analytics-integrator",
+  "version": "1.0.0",
+  "description": "Makes integration with analytics tool like Adobe Omniture easy.",
+  "main": "index.js",
+  "author": "Adil Mezghouti",
+  "license": "MIT",
+  "scripts": {
+    "test": "nyc mocha --require @babel/register ./test*.js",
+    "eslint": "eslint *.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.2.0",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-mocha": "^5.2.0",
+    "eslint-plugin-react": "^7.11.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.4",
+    "nyc": "^13.1.0"
+  }
+}

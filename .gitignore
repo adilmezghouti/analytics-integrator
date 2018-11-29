@@ -1,0 +1,6 @@
+/dist
+/node_modules
+*.log
+.nyc_output
+*.iml
+.idea/codeStyles/codeStyleConfig.xml
